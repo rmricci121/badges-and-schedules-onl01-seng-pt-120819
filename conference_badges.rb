@@ -23,6 +23,7 @@ end
 end
 
 def printer(attendees)
+  binding.pry
   # badge_and_room_assignments = []
   # attendees.each do 
   #   badge_and_room_assignments << batch_badge_creator
