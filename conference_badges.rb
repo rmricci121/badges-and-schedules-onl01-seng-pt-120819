@@ -27,4 +27,5 @@ def printer(attendees)
   attendees.each do 
     badge_and_room_assignments << batch_badge_creator
   end
+  badge_and_room_assignments
 end
