@@ -24,7 +24,6 @@ end
 
 def printer(attendees)
   badge_and_room_assignments = []
-  batch_badge_creator(attendees) do |names|
-  badge_and_room_assignments << names
+  puts batch_badge_creator(attendees) 
 end
 end
